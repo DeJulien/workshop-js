@@ -38,6 +38,6 @@ function soustraction(nb1,nb2)
     return nb1-nb2;
 }
 
-console.log(afficherOperation('Soustraction',soustraction,15,5));
+console.log(afficherOperation('Soustraction',function(nb1,nb2){return nb1-nb2;},15,5));
 
 
