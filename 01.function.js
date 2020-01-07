@@ -32,3 +32,12 @@ var afficherOperation = function(nomOperation,operation,nb1,nb2)
 }
 console.log(afficherOperation('Somme',somme,20,40));
 console.log(afficherOperation('Multiplication',multiplication,10,20));
+
+function soustraction(nb1,nb2)
+{
+    return nb1-nb2;
+}
+
+console.log(afficherOperation('Soustraction',soustraction,15,5));
+
+
